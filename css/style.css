@@ -1,0 +1,18 @@
+header {
+    color: yellowgreen;
+    text-align: center;
+}
+
+.recipe-list li{
+    list-style-type: none;
+}
+
+.recipe-list a{
+    text-decoration: none;
+    color: blue;
+}
+
+body.chicken-biryani,body.gobi-manchurian {
+   background-color: antiquewhite;
+}
+
