@@ -1,18 +1,46 @@
+
+/* Index.html css*/
 header {
     color: yellowgreen;
     text-align: center;
 }
 
+.recipes {
+   
+    background-color: rgb(133, 146, 221);
+    border: 5px dashed red;
+    padding-left: 10%; padding-right: 10%;
+
+}
 .recipe-list li{
     list-style-type: none;
+    /*text-align: center;*/
+    font-size: 1.5em;
 }
 
 .recipe-list a{
     text-decoration: none;
     color: blue;
 }
-
+/* Recipes css */
 body.chicken-biryani,body.gobi-manchurian {
    background-color: antiquewhite;
 }
 
+.recipe-intro p {
+    color: #0b4040;
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+.recipe-main{
+    border: 0.8em dashed #754de2;
+    padding-left: 10px;
+    font-size: 1.3em;
+    font-style: italic;
+    line-height: 1.2em;
+}
+.recipe-main h2{
+    font-size: 1.5em;
+    color: #253366;
+}
